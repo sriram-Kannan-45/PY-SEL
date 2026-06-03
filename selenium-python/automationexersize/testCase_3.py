@@ -32,24 +32,24 @@ if driver.current_url == homePage :
         By.XPATH , '//input[@data-qa="login-email"]'
     ).send_keys("titooram123@gmail.com")
 
-    driver.find_element(By.XPATH , '//input[@type="password"]').send_keys("sriram123@")
+    driver.find_element(By.XPATH , '//input[@type="password"]').send_keys("sriram1")
 
     driver.find_element(By.XPATH , '//button[text()="Login"]').click()
 
-    logInMsg  = driver.find_element(By.XPATH , '//a[text()=" Logged in as "]')
 
-    if (logInMsg.is_displayed) :
+    error = driver.find_element(By.XPATH , '//p[text()="Your email or password is incorrect!"]')
 
-        print("login successFull")
+    if error.is_displayed() :
+
+        print("error handled with the invalid credentials")
 
     else :
 
-        print("login unsuccessFull")
-
+        print("error not handled with the invalid credentials")
 
 else :
 
     print ("verification failed")
 
-driver.close() 
+driver.quit()
 
