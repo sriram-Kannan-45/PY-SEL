@@ -1,0 +1,13 @@
+{
+    
+    "code-runner.executorMap": {
+        "python": "\"D:\\PY-SEL\\selenium-python\\Scripts\\python.exe\" -u"
+    }
+,
+
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+
+    ,
+
+     "python.analysis.autoImportCompletions": true
+}
