@@ -11,4 +11,4 @@ email = driver.find_element(By.XPATH,"//input[@data-qa='signup-email']").send_ke
 signupbtn = driver.find_element(By.XPATH,"//button[normalize-space()='Signup']").click()
 errmsg = driver.find_element(By.XPATH,"//p[text()='Email Address already exist!']").text
 strmsg="Email Address already exist!"
-assert strmsg == errmsg,"Message not shown"
+assert strmsg == errmsg,"Message not sho wn"
