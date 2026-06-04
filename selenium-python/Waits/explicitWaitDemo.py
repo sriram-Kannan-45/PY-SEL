@@ -70,4 +70,5 @@ if "automationexercise.com" in driver.current_url:
 else:
     print("Home Page Not Verified")
 
+
 driver.quit()
