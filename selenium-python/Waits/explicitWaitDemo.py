@@ -42,9 +42,19 @@ if "automationexercise.com" in driver.current_url:
     dismiss_ads(driver)
 
     test_case_menu = wait.until(
-        EC.element_to_be_clickable((By.XPATH, "//a[contains(@href,'/test_cases')]")))
+        EC.element_to_be_clickable(
+            (By.XPATH, "//a[contains(@href,'/test_cases')]")
+        )
+    )
 
     test_case_menu.click()
+
+    # Wait until Test Cases page loads
+    wait.until(
+        EC.url_contains("/test_cases")
+    )
+
+    print("Current URL :", driver.current_url)
 
     test_case_text = wait.until(
         EC.visibility_of_element_located(
