@@ -1,13 +1,23 @@
 {
-    
     "code-runner.executorMap": {
         "python": "\"D:\\PY-SEL\\selenium-python\\Scripts\\python.exe\" -u"
+    },
+
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+
+    "python.analysis.autoImportCompletions": true,
+
+    "python.analysis.completeFunctionParens": true,
+
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+
+    "python.languageServer": "Pylance",
+
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
     }
-,
-
-    "python-envs.defaultEnvManager": "ms-python.python:system"
-
-    ,
-
-     "python.analysis.autoImportCompletions": true
 }
