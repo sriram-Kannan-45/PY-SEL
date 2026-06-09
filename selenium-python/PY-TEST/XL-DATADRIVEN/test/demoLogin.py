@@ -1,0 +1,77 @@
+
+import pytest
+
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+from utilities import excelReader
+
+
+import utilities.logCreater as logCreater
+
+logger = logCreater.log_generator()
+
+@pytest.mark.parametrize(
+    "username,password",
+    excelReader.get_data(
+        r"..\ExcelFiles\loginData.xlsx",
+        "loginData"
+    )
+)
+def test_ValLogin(username, password):
+
+    logger.info("Starting Login Test")
+
+    driver = webdriver.Chrome()
+    wait = WebDriverWait(driver, 10)
+
+    driver.get("https://www.demoblaze.com/index.html")
+    driver.maximize_window()
+
+    logger.info("Application launched")
+
+    wait.until(
+        EC.element_to_be_clickable((By.ID, "login2"))
+    ).click()
+
+    logger.info("Login popup opened")
+
+    wait.until(
+        EC.visibility_of_element_located((By.ID, "loginusername"))
+    ).send_keys(username)
+
+    logger.info(f"Username entered: {username}")
+
+    wait.until(
+        EC.visibility_of_element_located((By.ID, "loginpassword"))
+    ).send_keys(password)
+
+    logger.info("Password entered")
+
+    wait.until(
+        EC.element_to_be_clickable((By.XPATH, "//button[text()='Log in']"))
+    ).click()
+
+    logger.info("Login button clicked")
+
+    logout = wait.until(
+        EC.visibility_of_element_located((By.XPATH, "//a[text()='Log out']"))
+    ).text
+
+    assert logout == "Log out"
+
+    logger.info("Login successful")
+
+    wait.until(
+        EC.element_to_be_clickable((By.XPATH, "//a[text()='Log out']"))
+    ).click()
+
+    logger.info("Logout successful")
+
+    driver.quit()
+
+    logger.info("Browser closed")
+

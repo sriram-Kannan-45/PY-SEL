@@ -1,0 +1,1 @@
+[{"uid":"2602f2594beef9a6","name":"test_ValLogin[admin-admin]","time":{"start":1780999470778,"stop":1780999478715,"duration":7937},"status":"passed","severity":"normal"},{"uid":"90404f42ef04adba","name":"test_ValLogin[admin-admi]","time":{"start":1780999478723,"stop":1780999487060,"duration":8337},"status":"broken","severity":"normal"}]
