@@ -80,3 +80,122 @@
 2026-06-09 17:04:52,854 - INFO - Logout successful
 2026-06-09 17:04:55,325 - INFO - Browser closed
 2026-06-09 17:04:55,325 - INFO - ========== Login Test Completed ==========
+2026-06-09 17:07:10,164 - INFO - ========== Login Test Started ==========
+2026-06-09 17:07:13,595 - INFO - Application launched successfully
+2026-06-09 17:07:13,806 - INFO - Login popup opened
+2026-06-09 17:07:14,431 - INFO - Username entered: admin
+2026-06-09 17:07:14,498 - INFO - Password entered
+2026-06-09 17:07:14,591 - INFO - Login button clicked
+2026-06-09 17:07:29,878 - INFO - Login successful
+2026-06-09 17:07:30,400 - INFO - Logout successful
+2026-06-09 17:07:32,987 - INFO - Browser closed
+2026-06-09 17:07:32,988 - INFO - ========== Login Test Completed ==========
+2026-06-09 17:07:33,008 - INFO - ========== Login Test Started ==========
+2026-06-09 17:07:36,717 - INFO - Application launched successfully
+2026-06-09 17:07:36,812 - INFO - Login popup opened
+2026-06-09 17:07:37,406 - INFO - Username entered: admin
+2026-06-09 17:07:37,467 - INFO - Password entered
+2026-06-09 17:07:37,544 - INFO - Login button clicked
+2026-06-09 17:07:51,236 - INFO - Login successful
+2026-06-09 17:07:51,726 - INFO - Logout successful
+2026-06-09 17:07:53,946 - INFO - Browser closed
+2026-06-09 17:07:53,946 - INFO - ========== Login Test Completed ==========
+2026-06-09 17:13:14,526 - INFO - ========== Login Test Started ==========
+2026-06-09 17:13:17,138 - INFO - Application launched successfully
+2026-06-09 17:13:17,346 - INFO - Login popup opened
+2026-06-09 17:13:18,052 - INFO - Username entered: admin
+2026-06-09 17:13:18,156 - INFO - Password entered
+2026-06-09 17:13:18,267 - INFO - Login button clicked
+2026-06-09 17:13:20,509 - INFO - Login successful
+2026-06-09 17:13:20,653 - INFO - Logout successful
+2026-06-09 17:13:22,976 - INFO - Browser closed
+2026-06-09 17:13:22,976 - INFO - ========== Login Test Completed ==========
+2026-06-09 17:13:22,980 - INFO - ========== Login Test Started ==========
+2026-06-09 17:13:25,066 - INFO - Application launched successfully
+2026-06-09 17:13:25,348 - INFO - Login popup opened
+2026-06-09 17:13:25,982 - INFO - Username entered: admin
+2026-06-09 17:13:26,051 - INFO - Password entered
+2026-06-09 17:13:26,166 - INFO - Login button clicked
+2026-06-09 17:13:27,223 - ERROR - Test Failed : Alert Text: Wrong password.
+Message: unexpected alert open: {Alert text : Wrong password.}
+  (Session info: chrome=148.0.7778.218)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff640ef7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff640ef7e50+14900]
+	chromedriver!(No symbol) [0x7ff640c5d5ad]
+	chromedriver!(No symbol) [0x7ff640d05338]
+	chromedriver!(No symbol) [0x7ff640ca9df8]
+	chromedriver!(No symbol) [0x7ff640caace3]
+	chromedriver!GetHandleVerifier [0x7ff64120cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff641207375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff64122bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff640f16045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff640f1ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff640f01bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff640f01d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff640ee60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff96da7e957+17]
+	ntdll!RtlUserThreadStart [0x7ff96f3a7c1c+2c]
+
+2026-06-09 17:13:29,587 - INFO - Browser closed
+2026-06-09 17:13:29,587 - INFO - ========== Login Test Completed ==========
+2026-06-09 17:13:53,030 - INFO - ========== Login Test Started ==========
+2026-06-09 17:13:54,761 - INFO - Application launched successfully
+2026-06-09 17:13:56,591 - INFO - Login popup opened
+2026-06-09 17:13:57,428 - INFO - Username entered: admin
+2026-06-09 17:13:57,599 - INFO - Password entered
+2026-06-09 17:13:57,815 - INFO - Login button clicked
+2026-06-09 17:14:00,456 - INFO - Login successful
+2026-06-09 17:14:00,596 - INFO - Logout successful
+2026-06-09 17:14:02,883 - INFO - Browser closed
+2026-06-09 17:14:02,884 - INFO - ========== Login Test Completed ==========
+2026-06-09 17:14:02,888 - INFO - ========== Login Test Started ==========
+2026-06-09 17:14:05,370 - INFO - Application launched successfully
+2026-06-09 17:14:05,526 - INFO - Login popup opened
+2026-06-09 17:14:06,148 - INFO - Username entered: admin
+2026-06-09 17:14:06,238 - INFO - Password entered
+2026-06-09 17:14:06,343 - INFO - Login button clicked
+2026-06-09 17:14:08,876 - INFO - Login successful
+2026-06-09 17:14:09,876 - INFO - Logout successful
+2026-06-09 17:14:12,731 - INFO - Browser closed
+2026-06-09 17:14:12,731 - INFO - ========== Login Test Completed ==========
+2026-06-09 17:14:26,610 - INFO - ========== Login Test Started ==========
+2026-06-09 17:14:29,196 - INFO - Application launched successfully
+2026-06-09 17:14:29,422 - INFO - Login popup opened
+2026-06-09 17:14:30,040 - INFO - Username entered: admin
+2026-06-09 17:14:30,120 - INFO - Password entered
+2026-06-09 17:14:30,226 - INFO - Login button clicked
+2026-06-09 17:14:32,578 - INFO - Login successful
+2026-06-09 17:14:32,723 - INFO - Logout successful
+2026-06-09 17:14:35,047 - INFO - Browser closed
+2026-06-09 17:14:35,047 - INFO - ========== Login Test Completed ==========
+2026-06-09 17:14:35,050 - INFO - ========== Login Test Started ==========
+2026-06-09 17:14:37,555 - INFO - Application launched successfully
+2026-06-09 17:14:37,751 - INFO - Login popup opened
+2026-06-09 17:14:38,350 - INFO - Username entered: admin
+2026-06-09 17:14:38,400 - INFO - Password entered
+2026-06-09 17:14:38,484 - INFO - Login button clicked
+2026-06-09 17:14:41,013 - INFO - Login successful
+2026-06-09 17:14:41,138 - INFO - Logout successful
+2026-06-09 17:14:43,292 - INFO - Browser closed
+2026-06-09 17:14:43,293 - INFO - ========== Login Test Completed ==========
+2026-06-09 17:18:08,201 - INFO - ========== Login Test Started ==========
+2026-06-09 17:18:12,274 - INFO - Application launched successfully
+2026-06-09 17:18:12,413 - INFO - Login popup opened
+2026-06-09 17:18:13,028 - INFO - Username entered: admin
+2026-06-09 17:18:13,132 - INFO - Password entered
+2026-06-09 17:18:13,242 - INFO - Login button clicked
+2026-06-09 17:18:15,356 - INFO - Login successful
+2026-06-09 17:18:15,541 - INFO - Logout successful
+2026-06-09 17:18:17,796 - INFO - Browser closed
+2026-06-09 17:18:17,796 - INFO - ========== Login Test Completed ==========
+2026-06-09 17:18:17,812 - INFO - ========== Login Test Started ==========
+2026-06-09 17:18:19,146 - INFO - Application launched successfully
+2026-06-09 17:18:20,503 - INFO - Login popup opened
+2026-06-09 17:18:21,131 - INFO - Username entered: admin
+2026-06-09 17:18:21,206 - INFO - Password entered
+2026-06-09 17:18:21,320 - INFO - Login button clicked
+2026-06-09 17:18:23,891 - INFO - Login successful
+2026-06-09 17:18:24,051 - INFO - Logout successful
+2026-06-09 17:18:26,319 - INFO - Browser closed
+2026-06-09 17:18:26,320 - INFO - ========== Login Test Completed ==========

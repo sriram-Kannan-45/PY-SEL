@@ -1,0 +1,29 @@
+[32mINFO    [0m root:test_demoLogin.py:25 ========== Login Test Started ==========
+[32mINFO    [0m root:test_demoLogin.py:35 Application launched successfully
+[32mINFO    [0m root:test_demoLogin.py:41 Login popup opened
+[32mINFO    [0m root:test_demoLogin.py:47 Username entered: admin
+[32mINFO    [0m root:test_demoLogin.py:53 Password entered
+[32mINFO    [0m root:test_demoLogin.py:59 Login button clicked
+[31m[1mERROR   [0m root:test_demoLogin.py:77 Test Failed : Alert Text: Wrong password.
+Message: unexpected alert open: {Alert text : Wrong password.}
+  (Session info: chrome=148.0.7778.218)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff640ef7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff640ef7e50+14900]
+	chromedriver!(No symbol) [0x7ff640c5d5ad]
+	chromedriver!(No symbol) [0x7ff640d05338]
+	chromedriver!(No symbol) [0x7ff640ca9df8]
+	chromedriver!(No symbol) [0x7ff640caace3]
+	chromedriver!GetHandleVerifier [0x7ff64120cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff641207375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff64122bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff640f16045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff640f1ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff640f01bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff640f01d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff640ee60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff96da7e957+17]
+	ntdll!RtlUserThreadStart [0x7ff96f3a7c1c+2c]
+
+[32mINFO    [0m root:test_demoLogin.py:85 Browser closed
+[32mINFO    [0m root:test_demoLogin.py:86 ========== Login Test Completed ==========
