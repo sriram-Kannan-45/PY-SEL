@@ -1,18 +1,21 @@
-from openpyxl import Workbook
+import os
 import openpyxl
 
-
 def get_data(path, sheet_name):
-    final_list = []
-    Workbook = openpyxl.load_workbook(path)
-    sheet = Workbook[sheet_name]
-    total_row = sheet.max_row
-    total_columns = sheet.max_column
 
-    for r in range(2, total_row + 1):
-        row_list = []
-        for c in range(1, total_columns + 1):
-            row_list.append(sheet.cell(r, c).value)
-        final_list.append(row_list)
-    return final_list
+    base_path = os.path.dirname(os.path.dirname(__file__))
+    file_path = os.path.join(base_path, path)
 
+    workbook = openpyxl.load_workbook(file_path)
+
+    sheet = workbook[sheet_name]
+
+    data = []
+
+    for r in range(2, sheet.max_row + 1):
+        row = []
+        for c in range(1, sheet.max_column + 1):
+            row.append(sheet.cell(r, c).value)
+        data.append(row)
+
+    return data

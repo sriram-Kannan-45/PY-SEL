@@ -17,9 +17,9 @@ logger = logCreater.log_generator()
 @pytest.mark.parametrize(
     "username,password",
     excelReader.get_data(
-        r"..\ExcelFiles\loginData.xlsx",
-        "loginData"
-    )
+    "ExcelFiles/loginData.xlsx",
+    "loginData"
+)
 )
 def test_ValLogin(username, password):
 
