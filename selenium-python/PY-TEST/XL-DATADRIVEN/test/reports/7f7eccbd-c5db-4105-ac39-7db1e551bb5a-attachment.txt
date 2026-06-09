@@ -1,0 +1,6 @@
+[32mINFO    [0m root:test_demoLogin.py:26 Starting Login Test
+[32mINFO    [0m root:test_demoLogin.py:34 Application launched
+[32mINFO    [0m root:test_demoLogin.py:40 Login popup opened
+[32mINFO    [0m root:test_demoLogin.py:46 Username entered: admin
+[32mINFO    [0m root:test_demoLogin.py:52 Password entered
+[32mINFO    [0m root:test_demoLogin.py:58 Login button clicked

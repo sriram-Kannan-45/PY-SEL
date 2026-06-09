@@ -1,0 +1,10 @@
+[32mINFO    [0m root:test_demoLogin.py:25 ========== Login Test Started ==========
+[32mINFO    [0m root:test_demoLogin.py:35 Application launched successfully
+[32mINFO    [0m root:test_demoLogin.py:41 Login popup opened
+[32mINFO    [0m root:test_demoLogin.py:47 Username entered: admin
+[32mINFO    [0m root:test_demoLogin.py:53 Password entered
+[32mINFO    [0m root:test_demoLogin.py:59 Login button clicked
+[32mINFO    [0m root:test_demoLogin.py:67 Login successful
+[32mINFO    [0m root:test_demoLogin.py:73 Logout successful
+[32mINFO    [0m root:test_demoLogin.py:85 Browser closed
+[32mINFO    [0m root:test_demoLogin.py:86 ========== Login Test Completed ==========
