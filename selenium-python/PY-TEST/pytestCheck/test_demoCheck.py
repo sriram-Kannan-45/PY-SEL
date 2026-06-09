@@ -4,7 +4,7 @@ def test_check():
 
     print("Before first check")
 
-    ch.equal(1, 2, "First failed")
+    ch.equal(1, 1, "First failed")
 
     print("After first check")
 

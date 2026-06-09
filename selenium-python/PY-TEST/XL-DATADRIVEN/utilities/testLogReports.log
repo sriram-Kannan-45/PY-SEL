@@ -199,3 +199,29 @@ Stacktrace:
 2026-06-09 17:18:24,051 - INFO - Logout successful
 2026-06-09 17:18:26,319 - INFO - Browser closed
 2026-06-09 17:18:26,320 - INFO - ========== Login Test Completed ==========
+2026-06-09 23:08:35,486 - INFO - ========== Login Test Started ==========
+2026-06-09 23:08:37,715 - INFO - Application launched successfully
+2026-06-09 23:08:37,851 - INFO - Login popup opened
+2026-06-09 23:08:38,496 - INFO - Username entered: admin
+2026-06-09 23:08:38,582 - INFO - Password entered
+2026-06-09 23:08:38,695 - INFO - Login button clicked
+2026-06-09 23:08:40,301 - INFO - Login successful
+2026-06-09 23:08:40,535 - INFO - Logout successful
+2026-06-09 23:08:42,718 - INFO - Browser closed
+2026-06-09 23:08:42,718 - INFO - ========== Login Test Completed ==========
+2026-06-09 23:08:42,722 - INFO - ========== Login Test Started ==========
+2026-06-09 23:08:44,757 - INFO - Application launched successfully
+2026-06-09 23:08:44,894 - INFO - Login popup opened
+2026-06-09 23:08:45,610 - INFO - Username entered: admin
+2026-06-09 23:08:45,695 - INFO - Password entered
+2026-06-09 23:08:45,814 - INFO - Login button clicked
+2026-06-09 23:08:48,072 - INFO - Login successful
+2026-06-09 23:08:48,476 - INFO - Logout successful
+2026-06-09 23:08:50,700 - INFO - Browser closed
+2026-06-09 23:08:50,700 - INFO - ========== Login Test Completed ==========
+2026-06-09 23:09:21,730 - INFO - Starting Login Test
+2026-06-09 23:09:21,731 - INFO - Username : 2k22aids45@kiot.ac.in
+2026-06-09 23:09:23,857 - INFO - Login Successful
+2026-06-09 23:09:27,999 - INFO - Starting Login Test
+2026-06-09 23:09:27,999 - INFO - Username : wavene20@gmail.com
+2026-06-09 23:09:29,924 - INFO - error
