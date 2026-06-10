@@ -1,6 +1,6 @@
 import pytest
 
-@pytest.mark.order(1)
+@pytest.mark.dependency(name="valid")
 def test_valproduct(test_setup_and_teardown):
 
     driver = test_setup_and_teardown
@@ -15,7 +15,7 @@ def test_valproduct(test_setup_and_teardown):
     ).is_displayed()
 
 
-@pytest.mark.order(2)
+@pytest.mark.dependency(depends=["valid"], name="invalid")
 def test_invalproduct(test_setup_and_teardown):
 
     driver = test_setup_and_teardown
@@ -34,7 +34,7 @@ def test_invalproduct(test_setup_and_teardown):
     assert actual == expected
 
 
-@pytest.mark.order(3)
+@pytest.mark.dependency(depends=["invalid"])
 def test_noproduct(test_setup_and_teardown):
 
     driver = test_setup_and_teardown

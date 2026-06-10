@@ -1,0 +1,9 @@
+{
+  "Lib/site-packages/examples/experements": true,
+  "Lib/site-packages/examples/replace_asserts": true,
+  "Lib/site-packages/trio/_tests/test_dtls.py": true,
+  "Lib/site-packages/trio/_tests/test_highlevel_ssl_helpers.py": true,
+  "Lib/site-packages/trio/_tests/test_ssl.py": true,
+  "Lib/site-packages/trio/_tests/tools/test_gen_exports.py": true,
+  "Lib/site-packages/trio/_tests/tools/test_sync_requirements.py": true
+}
