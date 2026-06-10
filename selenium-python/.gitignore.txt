@@ -1,0 +1,96 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+selenium-python/
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# ===========================
+# Pytest
+# ===========================
+.pytest_cache/
+.cache/
+
+# ===========================
+# Allure Reports
+# ===========================
+allure-results/
+allure-report/
+
+# ===========================
+# HTML Reports
+# ===========================
+reports/
+report/
+htmlcov/
+coverage.xml
+.coverage
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+
+# ===========================
+# IDE
+# ===========================
+.vscode/
+.idea/
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# Selenium Screenshots
+# ===========================
+screenshots/
+Screenshot/
+*.png
+
+# ===========================
+# Temporary Files
+# ===========================
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# ===========================
+# Build Files
+# ===========================
+build/
+dist/
+*.egg-info/
+
+# ===========================
+# Jupyter
+# ===========================
+.ipynb_checkpoints/
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+
+# ===========================
+# Test Output
+# ===========================
+test-output/
+results/
+output/

@@ -6,9 +6,9 @@ from utilities import config_reader as read
 
 
 @pytest.mark.usefixtures("test_setup_and_down")
-class TestLogin:
+class TestLoginBase:
 
-    def test_valid_login(self):
+    def login(self):
 
         login_page = LoginPage(self.driver)
 
@@ -26,21 +26,3 @@ class TestLogin:
 
         dashboard = DashboardPage(self.driver)
         dashboard.verify_login("My Account")
-
-    def test_invalid_login(self):
-
-        login_page = LoginPage(self.driver)
-
-        email = read.get_config(
-            "userEmail and password",
-            "invalemail"
-        )
-
-        password = read.get_config(
-            "userEmail and password",
-            "invalpassword"
-        )
-
-        login_page.login(email, password)
-
-        login_page.assertError("Warning")

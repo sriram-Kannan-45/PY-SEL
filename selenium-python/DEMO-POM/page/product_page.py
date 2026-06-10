@@ -3,16 +3,16 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 
 
-class DashboardPage(BasePage):
+class ProductPage(BasePage):
 
-    my_account_assert = '//h2[text()="My Account"]'
+    productText = '//a[contains(text(),"HP")]'
 
-    def verify_login(self, expected):
+    def assertProduct(self, expected):
 
         actual = self.wait.until(
             EC.visibility_of_element_located(
-                (By.XPATH, self.my_account_assert)
+                (By.XPATH, self.productText)
             )
         ).text
 
-        assert actual == expected
+        assert expected in actual
